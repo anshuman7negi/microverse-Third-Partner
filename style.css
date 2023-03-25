@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+.navbar{
+    display: block;
+    background-color: rgb(227, 28, 28);
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+      
+}
+li{
+    display: inline;
+    font-size: 1.8rem;
+    margin: 10px;
+}
+
+li:hover{
+    background-color: #45567d;
+    padding: 20px;
+}
+
+.profile-name{
+    background-color: #45567d;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-name h1{
+    font-size: 4rem;
+}
+.profile-name p{
+    color: red;
+    font-style: italic;
+    font-size: 2rem;
+}
